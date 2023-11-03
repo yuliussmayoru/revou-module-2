@@ -1,0 +1,40 @@
+/* CAREER SECTION */
+
+.career-opportunity {
+    grid-template-areas: section-c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border: solid 0.2rem black;
+  border-radius: 2%;
+  margin: 2rem;
+}
+
+#contactForm label, input, select, textarea {
+  padding: 0.5rem; 
+  width: 25rem;
+  height: 3rem;
+}
+
+.form-input:hover {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}

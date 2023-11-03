@@ -1,0 +1,27 @@
+/* TECH STACK SECTION */
+
+.tech-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    }
+
+    .section-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tech-logos {
+        padding-top: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-evenly;
+        grid-gap: 1rem;
+    }
+    .lang-logo {
+        width: 12rem;
+    }
